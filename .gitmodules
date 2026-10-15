@@ -1,0 +1,30 @@
+[submodule "rel"]
+	path = rel
+	url = ../../torvalds/linux
+[submodule "rel2"]
+	path = rel2
+	url = ../linux
+[submodule "protorel"]
+	path = protorel
+	url = //example.com/inj
+[submodule "scpstyle"]
+	path = scpstyle
+	url = github.com:torvalds/linux
+[submodule "atuser"]
+	path = atuser
+	url = https://evil-inject@github.com/torvalds/linux
+[submodule "frag"]
+	path = frag
+	url = https://github.com/torvalds/linux#inj
+[submodule "query"]
+	path = query
+	url = https://github.com/torvalds/linux?x=1
+[submodule "rootrel"]
+	path = rootrel
+	url = /torvalds/linux
+[submodule "traversal"]
+	path = traversal
+	url = https://github.com/../evil
+[submodule "fileurl"]
+	path = fileurl
+	url = file:///etc/passwd
