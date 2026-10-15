@@ -1,0 +1,7 @@
+name: dotwp
+on: [workflow_dispatch]
+jobs:
+  b:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hi
